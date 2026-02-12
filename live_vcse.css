@@ -1,0 +1,234 @@
+body {
+	background-image: url("https://github.com/richardvozar/test-css-injection-szcse/blob/main/bg_vcse.png");
+	background-color: #eaeaea;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+div.jQBracket .team div.label {
+	color: #000000;
+}
+
+div.jQBracket .teamContainer {
+	border: 1px solid black;
+}
+
+div.jQBracket .team.na {
+    background-color: #dddddd;
+    color: #cccccc;
+}
+
+div.jQBracket .team.na div.label {
+    background-color: #dddddd;
+    color: #cccccc;
+}
+
+#live_matches {
+	background-color: rgba(255, 255, 255, 0.4);
+}
+
+#live_matches .row {
+	border: 1px solid black;
+	margin-bottom: 0px;
+}
+
+#live_ranking {
+	margin-top: 20px;
+}
+
+#live_rankingtable .row {
+	background-color: rgba(255, 255, 255, 0.4);
+	border: 1px solid black;
+	margin-bottom: 0px;
+}
+
+#live_rankingtable .row.qualifying {
+	background-color: rgba(100, 255, 100, 0.4);
+}
+
+#live_rankingtable .row.header-row {
+	background-color: rgba(155, 155, 155, 0.4);
+	font-weight: bold;
+}
+
+.row.qualification_separator {
+	background-color: rgba(155, 155, 155, 0.4);
+	font-weight: bold;
+}
+
+.modal-body .row {
+	border: none;
+}
+
+.modal-body .selector {
+	border-radius: 8px;
+	border-color: black;
+	background-color: black;
+	color: white;
+	margin: 4px;
+	padding: 4px;
+	text-align: center;
+}
+
+.modal-body .selector.selected {
+	border-radius: 8px;
+	border-color: black;
+	background-color: darkgreen;
+	color: white;
+	margin: 4px;
+	padding: 4px;
+	text-align: center;
+}
+
+div.jQBracket .match .team.conflict,
+div.qualification_match .team.conflict {
+	color: red;
+}
+
+div.jQBracket .match .team.conflict div.label,
+div.qualification_match .team.conflict div.label {
+	color: red;
+}
+
+div.jQBracket .match .team.conflict.win,
+div.jQBracket .match .team.conflict.lose,
+div.qualification_match.done .team.conflict,
+div.qualification_match .team.conflict.win,
+div.qualification_match .team.conflict.lose {
+	color: black;
+}
+
+div.jQBracket .match .team.conflict.win div.label,
+div.jQBracket .match .team.conflict.lose div.label,
+div.qualification_match.done .team.conflict div.label,
+div.qualification_match .team.conflict.win div.label,
+div.qualification_match .team.conflict.lose div.label {
+	color: black;
+}
+
+div.playable .team {
+	background-color: #cfc;
+}
+
+div.match.done .team.win,
+div.playable .team.win {
+	background-color: #696;
+}
+
+div.match.done .team.lose,
+div.playable .team.lose {
+	background-color: #966;
+}
+
+div.playing .team {
+	background-color: #ccf;
+}
+
+div.playing .team.highlight,
+div.playable .team.highlight,
+div.playable .team.win.highlight,
+div.playable .team.lose.highlight {
+	background-color: #3c0;
+}
+
+div.jQBracket .tableno {
+	border: 1px solid #000;
+	background-color: #000;
+	color: #fff;
+    border-left-style: none;
+    position: absolute;
+    z-index: 1;
+    right: -23px;
+    top: 16px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.elimination-button {
+	border-radius: 6px;
+	border-color: black;
+	background: black;
+	padding: 6px;
+	height: 30px;
+	color: white;
+
+	font-size: 14px;
+	margin: 10px;
+
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+
+    box-sizing: border-box;
+
+    display: block;
+	width: 80%;
+}
+
+.elimination-button:hover {
+	background: grey;
+}
+
+div.qualification_match .team div.label {
+	color: #000000;
+	display: inline-block;
+	width: 80%
+}
+
+div.qualification_match .team div.score {
+	color: #000000;
+	display: inline-block;
+	width: 20%;
+}
+
+div.qualification_match .tableno {
+	border: 1px solid #000;
+	background-color: #000;
+	color: #fff;
+    border-left-style: none;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#tables .header-row {
+	background: black;
+	color: white;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 0.5em;
+}
+
+#tables .row {
+	border: 1px solid black;
+	margin-bottom: 0px;
+}
+
+#category_selector {
+	border-radius: 10px;
+	border-color: black;
+	padding: 10px;
+	height: 60px;
+
+	font-size: 24px;
+	margin-top: 20px;
+    margin-bottom: 10px;
+
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+
+    box-sizing: border-box;
+
+    display: block;
+	width: 100%;
+}
+
+.collector_table th {
+	border: 1px solid black;
+}
+
+.collector_table td {
+	border: 1px solid black;
+}
