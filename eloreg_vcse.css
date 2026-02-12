@@ -1,0 +1,118 @@
+body {
+	background-image: url("https://github.com/richardvozar/test-css-injection-szcse/blob/main/bg_vcse.png");
+	background-color: #eaeaea;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+h3 {
+	text-align: center;
+}
+
+.bootstrap-select {
+	width: 100% !important;
+}
+
+.row {
+	border: 1px solid black;
+	margin-bottom: 5px;
+}
+
+.main-container {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.main-selector {
+	margin-top: 20px;
+    margin-bottom: 10px;
+	border-radius: 10px;
+	border-color: black;
+	background: black;
+	color: white;
+	padding: 10px;
+	height: 60px;
+}
+
+.main-selector:hover {
+	background: grey;
+}
+
+.main-selector a {
+	color: white;
+	line-height: 40px;
+	height: 40px;
+}
+
+.main-selector.active {
+	background: white;
+	color: black;
+}
+
+.main-button {
+	border-radius: 10px;
+	border-color: black;
+	background: black;
+	padding: 10px;
+	height: 60px;
+	color: white;
+
+	font-size: 24px;
+	margin-top: 20px;
+    margin-bottom: 10px;
+
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+
+    box-sizing: border-box;
+
+    display: block;
+	width: 100%;
+}
+
+.main-button:hover {
+	background: grey;
+}
+
+.category-title {
+	background: black;
+	color: white;
+}
+
+h4.category-title {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 0.5em;
+}
+
+#categories .row {
+	border: 0px;
+}
+
+#categories .category .row {
+	border: 1px solid black;
+	margin-bottom: 0px;
+}
+
+#money-table .row {
+	border: 1px solid black;
+	margin-bottom: 0px;
+}
+
+#money-table .row.money-header-row {
+	background: black;
+	color: white;
+	font-weight: bold;
+}
+
+.row {
+	background-color: rgba(255, 255, 255, 0.4);
+}
+
+.row.header-row {
+	background-color: rgba(155, 155, 155, 0.4);
+	font-weight: bold;
+}
